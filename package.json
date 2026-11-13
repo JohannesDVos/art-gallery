@@ -1,0 +1,30 @@
+{
+  "name": "lichthof-gallery",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "node server/start.mjs --dev",
+    "check": "tsc --noEmit",
+    "build": "npm run check && vite build",
+    "start": "node server/start.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/three": "^0.187.0",
+    "express": "^5.3.0",
+    "libheif-js": "^1.23.5",
+    "multer": "^2.5.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "sharp": "^0.35.5",
+    "three": "^0.187.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8"
+  }
+}

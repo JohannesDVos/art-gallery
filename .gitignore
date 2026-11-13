@@ -1,0 +1,12 @@
+/node_modules/
+/dist/
+/data/
+.env
+.env.*
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.pem
+*.key
+*.log
